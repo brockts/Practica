@@ -2,6 +2,7 @@
     comandos usados para crear la DB:
         `docker run --name djangoc -e POSTGRES_USER=mois -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres`
         nombre de base de datos creada por defecto `mois`
+        `docker run --name djangoc -e POSTGRES_USER=mois -e POSTGRES_PASSWORD=password -e POSTRGRES_DB=practicadb -p 5432:5432 -d postgres`
 
     En caso de el siguiente error:
         `raise ImproperlyConfigured("Error loading psycopg2 module: %s" % e)
